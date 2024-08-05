@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-Taking App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="container bg-white p-6 rounded-lg shadow-lg w-full max-w-lg">
+        <h1 class="text-2xl font-bold mb-4 text-gray-800 text-center">Note-Taking App</h1>
+        <textarea id="note-input" class="w-full h-40 border border-gray-300 rounded-lg p-2 mb-4" placeholder="Type your note here..."></textarea>
+        <button id="save-note" class="btn-primary px-4 py-2 rounded-lg hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-opacity-50 w-full">Save Note</button>
+        <div id="notes-list" class="mt-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
